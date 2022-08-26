@@ -143,11 +143,12 @@ ul {
   top: calc(50% - 35px);
 }
 .name ul:nth-child(2){
+  top: calc(50%);
+}
+.name ul:nth-child(3){
   top: calc(50% + 35px);
 }
-.name {
-   height: 80px;
-}
+
 ul li{
   position: relative;
   list-style: none;
